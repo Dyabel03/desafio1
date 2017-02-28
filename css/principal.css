@@ -1,0 +1,273 @@
+/* Para el boton con separador e icono
+.facebook{
+  margin-top: 50px;
+  text-decoration: none;
+  background-color: #3b5999;
+  color: white;
+  padding: 10px 14px 8px 14px;
+}
+
+.facebook:active{
+  background-color: green;
+}
+
+.F {
+  font-weight: bolder;
+  border-right: 2px solid #fff;
+  padding-right: 10px;
+}
+
+.textF {
+  padding-left: 10px;
+}*/
+
+
+
+body{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #273B47;
+  padding-left: 10px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.contenedor{
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.divbg{
+  background: #EFEFEF;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menu li {
+  content: '';
+  margin-right: 10px;
+  border-right: 1.5px solid #fff;
+}
+
+.menu li:last-child {
+  border-right: none;
+}
+
+.menu li a{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.menu li a:hover{
+  border-top: 3px solid #7DCD40;
+  padding-top: 10px;
+}
+
+.logotipo {
+  margin: 0;
+  padding-left: 5px;
+}
+
+.login{
+  background-color: #FF4842;
+  font-weight: bold;
+  color: white;
+  border: 0;
+  border-bottom: 3px solid #D0272A;
+  border-radius: 5px;
+  padding: 10px 14px 8px 14px;
+}
+
+.login:active{
+  background-color: green;
+}
+
+.parent-search{
+  position: relative;
+}
+
+.search-place{
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-place input {
+  border: none;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-right: 10px;
+}
+
+.button-search{
+  display: inline-block; /* Para que el span tome propiedades de alto y ancho*/
+  background: #333333;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.noticia-principal{
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  opacity: 0.7;
+  background: white;
+  width: 45%;
+  height: 25%;
+  padding-left: 15px;
+}
+
+.noticia-principal p {
+  color: black;
+  font-size: 20px;
+}
+
+.autor-noticia{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid grey;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.noticia-fecha{
+  width: 200px;
+}
+
+.avatar-name{
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.avatar-name img{
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.img-central{
+  position: relative;
+  margin-top: 10px;
+}
+
+.noticias{
+  display: flex;
+  justify-content: space-between;
+}
+
+.noticia{
+  width: 320px;
+  height: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.noticias:first-child{
+  margin-top: 50px;
+}
+
+.noticia h3{
+  color: #5E5E5E;
+  font-size: 26px;
+}
+
+.autor-noticia p{
+  margin: 0;
+  color: #5E5E5E;
+  font-weight: bold;
+}
+
+.noticia:active{
+  opacity: 0.3;
+}
+
+.paginacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginacion h3{
+  color: #5E5E5E;
+}
+
+.pagina{
+  width: 25px;
+  height: 25px;
+  background: #EAEAEA;
+  color: #7E7E7E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pagina:active, .pagina-siguiente:active, .pagina-ultima:active{
+  background: #A9A9AA;
+}
+
+.pagina-siguiente{
+  width: 110px;
+  height: 25px;
+  background: #EAEAEA;
+  color: #7E7E7E;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.pagina-ultima{
+  width: 135px;
+  height: 25px;
+  background: #EAEAEA;
+  color: #7E7E7E;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
