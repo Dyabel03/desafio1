@@ -99,6 +99,7 @@ header a {
   border-bottom: 3px solid #D0272A;
   border-radius: 5px;
   padding: 10px 14px 8px 14px;
+  margin-right: 10px;
 }
 
 .login:active{
